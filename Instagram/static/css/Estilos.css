@@ -1,0 +1,26 @@
+.soyclase{
+  height: 100px;
+  width: 200px;
+  border-radius: 100px;
+}
+.text{
+  color: brown;
+}
+.navbar>a{
+  background-color: silver;
+  padding: 0.3%
+}
+.navbar>a{
+  color: black;
+}
+.navbar{
+  border-width: thin;
+  border-bottom: 1px;
+  border-top: 13px;
+  border-radius: 3px;
+  border-left: 3px;
+}
+body{
+  background-color: silver;
+  align-items: center;
+}

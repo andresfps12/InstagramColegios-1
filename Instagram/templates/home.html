@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Home </title>
+  <link href="https://file.myfontastic.com/5JhZgfrtNnWSXweCqufRra/icons.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="{% static 'css/style home.css' %}">
+
+
+</head>
+
+<body>
+  <section class="photo_container">
+  <section class="photo_header">
+    <img src="http://queandandiciendo.com/wp-content/uploads/3CF5F32D00000578-4203818-image-a-30_1486562764357.jpg" class="photo_user">
+    <a href="{% url 'profile' %}" h3 class="photo_username">ElJuano</h3></a>
+  </section>
+  <section class="photo_image">
+    <img src="https://www.outdoorphotographer.com/images/stories/2016/may/landscapes/lead.jpg"
+  </section>
+  <section class="photo_icons">
+    <i class="icon-heart-o"></i>
+    <i class="icon-comment-o"></i>
+    <i class="icon-share-alt-square"></i>
+    <i class="icon-gplus-circled"></i>
+    <i class="icon-facebook-circled"></i>
+    <i class="icon-twitter-circled"></i>
+  </section>
+  <h6 class="photo_likes"><span>22,343</span> Likes</h6>
+
+  <section class="photo_comments">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </section>
+  <section class="photo_comments">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </section>
+  <section class="photo_comments">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </section>
+  <section class="photo_comments">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </section>
+  <section class="photo_comments">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </section>
+  <section class="photo_add_comments">
+  <input placeholder="agregue un comentario..." class="photo_add_comment">
+    <i class="icon-dot-3"></i>
+  </section>
+
+
+  </section>
+</section>
+
+    <script  src="js/index.js"></script>
+    <a href="{% url 'logout' %}">cerrar sesion</a>
+</body>
+</html>
